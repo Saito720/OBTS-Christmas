@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>User</author>
+      <authoring_tool>3dsMax 9 - Feeling ColladaMax v3.05B.</authoring_tool>
+      <comments>ColladaMax Export Options: ExportNormals=1;ExportEPolyAsTriangles=1;ExportXRefs=1;ExportSelected=0;ExportTangents=1;ExportAnimations=0;SampleAnim=1;ExportAnimClip=1;BakeMatrices=1;ExportRelativePaths=1;AnimStart=0.033333;AnimEnd=1.26667;</comments>
+      <source_data>file:///C:/Users/User/Documents/3dsmax/autoback/tree_recover_recover.max</source_data>
+    </contributor>
+    <created>2010-12-20T03:24:55Z</created>
+    <modified>2010-12-20T03:24:56Z</modified>
+    <unit meter="1" name="meter"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="santapainting.dds" name="santapainting_dds">
+      <init_from>./santapainting.dds</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="_3_-_Default" name="_3_-_Default">
+      <instance_effect url="#_3_-_Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_3_-_Default-fx" name="_3_-_Default">
+      <profile_COMMON>
+        <newparam sid="santapainting_dds-surface">
+          <surface type="2D">
+            <init_from>santapainting.dds</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="santapainting_dds-sampler">
+          <sampler2D>
+            <source>santapainting_dds-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color>0.588235 0.588235 0.588235 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="santapainting_dds-sampler" texcoord="CHANNEL1">
+                <extra>
+                  <technique profile="MAYA">
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                  </technique>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.9 0.9 0.9 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>1</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <spec_level>
+                <float>0</float>
+              </spec_level>
+              <emission_level>
+                <float>0</float>
+              </emission_level>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>0</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Box01-mesh" name="Box01">
+      <mesh>
+        <source id="Box01-mesh-positions">
+          <float_array id="Box01-mesh-positions-array" count="72">-0.8 -0.8 0 -0.8 0.8 0 -0.8 -0.8 0.019978 -0.8 0.8 0.019978 0.498392 0.8 0 0.498392 -0.8 0 0.498392 -0.8 0.019978 0.498392 0.8 0.019978 -0.63 -0.63 0.05 0.328392 -0.63 0.05 0.328392 0.63 0.05 -0.63 0.63 0.05 -0.63 -0.63 0.02 0.328392 -0.63 0.02 0.328392 0.63 0.02 -0.63 0.63 0.02 -0.8 -0.8 0 -0.8 0.8 0 0.498392 -0.8 0 0.498392 0.8 0 -0.68 -0.68 0.05 0.378392 -0.68 0.05 0.378392 0.68 0.05 -0.68 0.68 0.05</float_array>
+          <technique_common>
+            <accessor source="#Box01-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box01-mesh-normals">
+          <float_array id="Box01-mesh-normals-array" count="360">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -0.242702 0.970101 0 -0.242702 0.970101 0 -0.242702 0.970101 0 -0.242702 0.970101 0 -0.242702 0.970101 0 -0.242702 0.970101 0.242702 0 0.970101 0.242702 0 0.970101 0.242702 0 0.970101 0.242702 0 0.970101 0.242702 0 0.970101 0.242702 0 0.970101 0 0.242702 0.970101 0 0.242702 0.970101 0 0.242702 0.970101 0 0.242702 0.970101 0 0.242702 0.970101 0 0.242702 0.970101 -0.242702 0 0.970101 -0.242702 0 0.970101 -0.242702 0 0.970101 -0.242702 0 0.970101 -0.242702 0 0.970101 -0.242702 0 0.970101</float_array>
+          <technique_common>
+            <accessor source="#Box01-mesh-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box01-mesh-map-channel1">
+          <float_array id="Box01-mesh-map-channel1-array" count="99">0.806641 0.011718 -0.5 1 0.011718 -0.5 0.080078 0.083984 -0.5 0.082031 0.921875 -0.5 1 0.980469 -0.5 0.806641 0.980469 -0.5 0.730469 0.921875 -0.5 0.730469 0.083984 -0.5 0.109375 0.113281 0.5 0.109375 0.892578 0.5 0.701172 0.113281 0.5 0.701172 0.892578 0.5 0.080078 0.083984 0.5 0.730469 0.083984 0.5 0.730469 0.921875 0.5 0.082031 0.921875 0.5 0.701172 0.892578 0.5 0.011718 0.015625 0 0.011718 0.992188 0 0.800781 0.015625 0 0.800781 0.992188 0 0.109375 0.113281 0 0.701172 0.113281 0 0.701172 0.892578 0 0.109375 0.892578 0 0.080078 0.083984 -0.5 0.082031 0.921875 -0.5 0.730469 0.083984 -0.5 0.730469 0.921875 -0.5 0.080078 0.083984 0 0.730469 0.083984 0 0.730469 0.921875 0 0.082031 0.921875 0</float_array>
+          <technique_common>
+            <accessor source="#Box01-mesh-map-channel1-array" count="33" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box01-mesh-map-channel1-tangents">
+          <float_array id="Box01-mesh-map-channel1-tangents-array" count="51">0 -1 0 -1 0 0 0 0 1 -0.998618 0.05256 0 -0.998804 -0.048893 0 0 0.82656 -0.562848 0 -0.844819 -0.535052 0 0.82656 0.562848 0 -0.844819 0.535052 0 -0.941752 -0.336308 0 0.949024 -0.315205 0 -0.941752 0.336308 0 0.949024 0.315205 -0.969009 -0.047433 0.242429 -0.968078 0.064538 0.242196 -0.967518 -0.07292 -0.242056 -0.969371 0.038774 -0.24252</float_array>
+          <technique_common>
+            <accessor source="#Box01-mesh-map-channel1-tangents-array" count="17" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box01-mesh-map-channel1-binormals">
+          <float_array id="Box01-mesh-map-channel1-binormals-array" count="63">-1 0 0 0 -1 0 1 0 0 -0.05256 -0.998618 0 0.048893 -0.998804 0 0 0 1 0 -0.562848 -0.82656 0 -0.535052 0.844819 0 0 -1 0 -0.562848 0.82656 0 -0.535052 -0.844819 0 -0.336308 0.941752 0 -0.315205 -0.949024 0 -0.336308 -0.941752 0 -0.315205 0.949024 0 -0.970101 -0.242702 0.046015 -0.998874 -0.011512 -0.062608 -0.997915 0.015663 0 -0.970101 0.242702 0.07074 -0.997338 0.017698 -0.037615 -0.999248 -0.00941</float_array>
+          <technique_common>
+            <accessor source="#Box01-mesh-map-channel1-binormals-array" count="21" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box01-mesh-vertices">
+          <input semantic="POSITION" source="#Box01-mesh-positions"/>
+        </vertices>
+        <triangles material="_3_-_Default" count="44">
+          <input semantic="VERTEX" source="#Box01-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Box01-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Box01-mesh-map-channel1" offset="2" set="1"/>
+          <input semantic="TEXTANGENT" source="#Box01-mesh-map-channel1-tangents" offset="3" set="1"/>
+          <input semantic="TEXBINORMAL" source="#Box01-mesh-map-channel1-binormals" offset="4" set="1"/>
+          <p>1 0 1 0 0 4 1 4 0 0 5 2 5 0 0 5 2 5 0 0 0 3 0 0 0 1 0 1 0 0 13 4 10 1 1 14 5 16 1 1 15 6 9 1 1 15 6 9 1 1 12 7 8 1 1 13 4 10 1 1 5 8 7 2 2 18 9 27 2 2 16 10 25 2 2 16 10 25 2 2 0 11 2 2 2 5 8 7 2 2 0 12 2 2 2 16 13 25 2 2 17 14 26 2 2 17 14 26 2 2 1 15 3 2 2 0 12 2 2 2 1 16 3 2 2 17 17 26 2 2 19 18 28 2 2 19 18 28 2 2 4 19 6 2 2 1 16 3 2 2 19 20 28 2 2 18 21 27 2 2 5 22 7 2 2 5 22 7 2 2 4 23 6 2 2 19 20 28 2 2 9 24 22 1 1 8 25 21 1 1 20 26 29 1 1 20 27 29 1 1 21 28 30 1 1 9 29 22 1 1 10 30 23 3 3 9 31 22 3 3 21 32 30 3 3 21 33 30 4 4 22 34 31 4 4 10 35 23 4 4 11 36 24 1 1 10 37 23 1 1 22 38 31 1 1 22 39 31 1 1 23 40 32 1 1 11 41 24 1 1 8 42 21 3 3 11 43 24 3 3 23 44 32 3 3 23 45 32 4 4 20 46 29 4 4 8 47 21 4 4 8 48 12 1 5 9 49 13 1 5 13 50 10 1 5 13 51 10 1 5 12 52 8 1 5 8 53 12 1 5 9 54 13 5 6 10 55 14 5 6 14 56 16 5 6 14 57 16 6 7 13 58 10 6 7 9 59 13 6 7 10 60 14 1 8 11 61 15 1 8 15 62 9 1 8 15 63 9 1 8 14 64 16 1 8 10 65 14 1 8 11 66 15 7 9 8 67 12 7 9 12 68 8 7 9 12 69 8 8 10 15 70 9 8 10 11 71 15 8 10 2 72 8 1 8 16 73 25 1 8 18 74 27 1 8 18 75 27 1 8 6 76 10 1 8 2 77 8 1 8 3 78 9 9 11 17 79 26 9 11 16 80 25 9 11 16 81 25 10 12 2 82 8 10 12 3 83 9 10 12 7 84 11 1 5 19 85 28 1 5 17 86 26 1 5 17 87 26 1 5 3 88 9 1 5 7 89 11 1 5 6 90 10 11 13 18 91 27 11 13 19 92 28 11 13 19 93 28 12 14 7 94 11 12 14 6 95 10 12 14 6 96 19 1 15 21 97 30 1 15 20 98 29 1 15 20 99 29 1 15 2 100 17 1 15 6 101 19 1 15 7 102 20 13 16 22 103 31 13 16 21 104 30 13 16 21 105 30 14 17 6 106 19 14 17 7 107 20 14 17 3 108 18 1 18 23 109 32 1 18 22 110 31 1 18 22 111 31 1 18 7 112 20 1 18 3 113 18 1 18 2 114 17 15 19 20 115 29 15 19 23 116 32 15 19 23 117 32 16 20 3 118 18 16 20 2 119 17 16 20</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="tree_recover_recover.max" name="tree_recover_recover_max">
+      <node id="Box01-node" name="Box01" type="NODE">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Box01-node_PIVOT" name="Box01_PIVOT" type="NODE">
+          <matrix>1 0 0 0.150804 0 1 0 -0.348211 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#Box01-mesh">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="_3_-_Default" target="#_3_-_Default">
+                  <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.033333</start_time>
+          <end_time>1.26667</end_time>
+        </technique>
+      </extra>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30</frame_rate>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#tree_recover_recover.max"/>
+  </scene>
+</COLLADA>

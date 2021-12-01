@@ -1,0 +1,248 @@
+<LANGUAGE>  
+	<CATEGORY Name="CustomStoryMain">
+		<Entry Name="Description">PLEAS TURN ON HINTS FOR THIS MOD!![br][br]Descr:[br]
+			Todo: Add descr :)
+		</Entry>
+	</CATEGORY>
+	
+/////////////////////////////////////////////////////////////////////////////////
+//---------------------------------Custom Hints--------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	<CATEGORY Name="CustomHints">
+		<Entry Name="test">this is test</Entry>
+	</CATEGORY>
+	
+	<CATEGORY Name="Death">
+		<Entry Name="eyeballs">shit, she captured me....</Entry>
+	</CATEGORY>
+
+	<CATEGORY Name="Journal">
+
+/////////////////////////////////////////////////////////////////////////////////
+//------------------------------------Notes------------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+	
+
+/////////////////////////////////////////////////////////////////////////////////
+//-----------------------------------Diaries-----------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////////
+//-----------------------------------Mementos----------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	</CATEGORY>
+
+/////////////////////////////////////////////////////////////////////////////////
+//----------------------------Item Names/Descriptions--------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	<CATEGORY Name="Inventory">
+
+	</CATEGORY>
+
+/////////////////////////////////////////////////////////////////////////////////
+//------------------------------------Signs------------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	<CATEGORY Name="Sign">
+
+	</CATEGORY>
+	
+	<CATEGORY Name="Voice">
+
+	</CATEGORY>
+	
+	<CATEGORY Name="emding">
+			<Entry Name="emding">~OBTURACULUM~[br][br]A game by Neil Barney[br][br]thanks everyone for playing, rate and review!! on ModDb  [br][br]*Music by:[br]Jonathan Wolff[br][br]*Map making:[br]Me[br][br]*3D-Jraphics:[br]Fredrik Fredholm[br]Linda Wahlqvist[br]Mattias Persson[br]Peder Hagberg[br][br]*Programming:[br]Daniel Törnkvist[br]Johan Rohdin[br]Joakim Jönsson[br]Fredrik Nilsson[br][br]*Sound Mixing:[br]Andreas Karlsson[br]Anders Rost[br][br]*Artwork:[br]Anders Karlsson[br][br]*Lang file editing: [br]Neil Barney[br][br]*Engine modding: [br]Neil Barney[br][br]*Tech demo:[br]Nein Barney[br][br]*An experience by:[br]Neil Barney (from South Dakota)[br][br]*Public Relations:[br]Roland Berns[br][br]*Special thanks to:[br]Jimmy Anttila[br]Jean-Baptiste Joseph Fourier[br]Till Us[br][br][br][br]Neil Barney a.k.a "SadEyeball productions" amnesia modding and co.[br][br]Copyright SadEyeball Studios, 833 Thrift Rd, Gulf, North Carolina 27256</Entry>
+			
+			<Entry Name="bad_emding">
+				You achieved the bad ending[br][br]Play the good ending to unlock full credits.
+			</Entry>
+	</CATEGORY>
+	
+/////////////////////////////////////////////////////////////////////////////////
+//---------------------------Level door messages--------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	<CATEGORY Name="Levels">
+
+	</CATEGORY>
+	
+/////////////////////////////////////////////////////////////////////////////////
+//----------------------------------Messages-----------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	<CATEGORY Name="Messages">
+
+	</CATEGORY>
+
+/////////////////////////////////////////////////////////////////////////////////
+//-----------------------------------Voice-------------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	
+/////////////////////////////////////////////////////////////////////////////////
+//----------------------------------Death Hints--------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	<CATEGORY Name="DeathHint">
+		<Entry Name="Entry1">you have to contune</Entry>
+	</CATEGORY>
+	
+/////////////////////////////////////////////////////////////////////////////////
+//----------------------------------Loading------------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	<CATEGORY Name="LoadingText">
+
+	</CATEGORY>
+	
+/////////////////////////////////////////////////////////////////////////////////
+//----------------------------------Levels--------------------------------//
+/////////////////////////////////////////////////////////////////////////////////	
+	
+
+
+/////////////////////////////////////////////////////////////////////////////////
+//---------------------------------- Base lang--------------------------------//
+/////////////////////////////////////////////////////////////////////////////////
+
+	<CATEGORY Name="General">
+		<Entry Name="Loading">loading......................................................................................................................................</Entry>
+		<Entry Name="TheEnd">to be continued,..?</Entry>
+	</CATEGORY>
+
+	<CATEGORY Name="Hints">
+	<Entry Name="KeyHint">there is key under carpet</Entry>
+	<Entry Name="StopRun">why running? walk and explore :)</Entry>
+    <Entry Name="SanityAdd">you can get more psyche if you solve puzzle</Entry>
+    <Entry Name="LanternNoItem">you need lamp first</Entry>
+    <Entry Name="LanternNoOil">you have zero lamp fuel</Entry>
+    <Entry Name="LeanHint">Press $ButLeanLeft or $ButLeanRight to lean around corners or to peek into narrow places. Or use $ButLean and look around to lean.</Entry>
+    <Entry Name="PushHint">When holding an object, you can click $ButAttack to give it an extra push.</Entry>
+    <Entry Name="ThrowHint">When holding an object, you can click $ButAttack to throw the object.</Entry>
+    <Entry Name="HINT:">hinT:</Entry>
+    <Entry Name="DefaultDeath">you have to contune.,..</Entry>
+    <Entry Name="HintHint">test test test</Entry>
+    <Entry Name="EntityWheel">Hold down $ButInteract and do a Circular Motion with the $Look thumbstick to turn the wheel. The wheel will turn in the same direction as you rotate.</Entry>
+    <Entry Name="EntityGrab01">press $ButAttack to throw object [br] hold $ButRotate and move  $Look to rotate object</Entry>
+    <Entry Name="EntityGrab02">use $ButScrollDown and $ButScrollUp or $ButZoomIn and $ButZoomOut to move object closer or away</Entry>
+    <Entry Name="EntityPush">Hold down $ButInteract while moving with $ButForward, $ButBackward, $ButLeft and $ButRight to push. Press $ButAttack for a strong push in the direction you face.</Entry>
+    <Entry Name="EntitySlide">Move the $Look thumbstick while holding down $ButInteract in order to move the object.</Entry>
+    <Entry Name="EntitySwingDoor">hold $ButInteract and move $Look in order to move the door [br] press $ButAttack to throw door</Entry>
+    <Entry Name="EntityLever">Hold down $ButInteract and move the $Look in the direction you want to move the lever.</Entry>
+    <Entry Name="DarknessDecrease">when standing in darkness your psyche goes down [br] turn on lights using mathces for light</Entry>
+    <Entry Name="SanityHit">Witnessing unsettling events will reduce your sanity. It can be increased by completing puzzles and making progress.</Entry>
+    <Entry Name="SanityLow">you dont have a lot psyche</Entry>
+    <Entry Name="PickSanityPotion">use psyche drink to get psyche from Inventory ($ButInventory)</Entry>
+    <Entry Name="PickCoin">you find a bag of rupees. when you have enough rupees you can open chest</Entry>
+    <Entry Name="PickHealthPotion">Use the Laudanum to increase your health. To drink it, double click on its icon inside the Inventory ($ButInventory).</Entry>
+    <Entry Name="PickOil">use lamp fuel to get more lamp fuel from Inventory ($ButInventory)</Entry>
+    <Entry Name="PickLantern">you have lamp now. it can be turned on by pressing ($ButLantern)</Entry>
+    <Entry Name="PickTinderbox">use mathces to light candles</Entry>
+    <Entry Name="EnemySeen">don,t look at enemy because you get less psyche</Entry>
+    <Entry Name="StickyArea">You can use objects to reach hard-to-get places.</Entry>
+    <Entry Name="HideHint">you better hide</Entry>
+    <Entry Name="EnemyTip01">turn off lamp ($ButLantern) and hide from enemy</Entry>
+    <Entry Name="EnemyTip02">crouch ($ButCrouch) in shadow so enemy won,t see you</Entry>
+    <Entry Name="CombineHint">items can be connected in invetory ($ButInventory) [br]drag item to other item to try</Entry>
+    <Entry Name="RunHint">press $ButRun to sprint</Entry>
+    <Entry Name="QuestAdded">you got a reminder in your notebook ($ButJournal). press ($ButQuestLog) to see reminder</Entry>
+    <Entry Name="RecentlyReadText">you can quickly check the last text by pressing ($ButRecentText)</Entry>
+	
+    <Entry Name="Mouse">Mouse</Entry>
+    <Entry Name="Thumbstick">Thumbstick</Entry>
+  </CATEGORY>
+  
+  
+<CATEGORY Name="Journal">
+    <Entry Name="Notes">notes</Entry>
+    <Entry Name="Diaries">my diary</Entry>
+    <Entry Name="Quest Log">remindeers</Entry>
+    <Entry Name="Back">return</Entry>
+    <Entry Name="MainBack">go back</Entry>
+    <Entry Name="NotesEmpty">nothing</Entry>
+    <Entry Name="DiariesEmpty">nothing</Entry>
+    <Entry Name="QuestsEmpty">nothing for reminding</Entry>
+</CATEGORY>
+  
+  <CATEGORY Name="Inventory">
+    <Entry Name="Combine">connect</Entry>
+    <Entry Name="with">with</Entry>
+    <Entry Name="CombinationDoesNotWork">i cant connect this and this</Entry>
+    <Entry Name="UseItemDoesNotWork">what am i thinking</Entry>
+    <Entry Name="UseItemHasNoObject">nothing to use object</Entry>
+    <Entry Name="Equipped:">Equipped:</Entry>
+    <Entry Name="ItemDesc_Lantern">is for light. press $ButLantern to use.</Entry>
+    <Entry Name="ItemName_Lantern">lamp</Entry>
+    <Entry Name="Sanity">psyche</Entry>
+    <Entry Name="SanityDesc0">feeling very badly</Entry>
+    <Entry Name="SanityDesc1">i need some morale</Entry>
+    <Entry Name="SanityDesc2">a bit tired</Entry>
+    <Entry Name="SanityDesc3">all good.</Entry>
+    <Entry Name="Health">health</Entry>
+    <Entry Name="HealthDesc0">VERY hurt</Entry>
+    <Entry Name="HealthDesc1">damaged</Entry>
+    <Entry Name="HealthDesc2">slightly hurt</Entry>
+    <Entry Name="HealthDesc3">allright</Entry>
+    <Entry Name="LampOil">lamp fuel</Entry>
+    <Entry Name="LampOilDesc">for lamp. if you have zero, you can't use lamp</Entry>
+    <Entry Name="ItemDesc_HealthPotion">it gives some health points</Entry>
+    <Entry Name="ItemName_HealthPotion">healing potion</Entry>
+    <Entry Name="ItemDesc_SanityPotion">it boosts my psyche</Entry>
+    <Entry Name="ItemName_SanityPotion">psyche potion</Entry>
+    <Entry Name="ItemName_OilPotion">fuel</Entry>
+    <Entry Name="ItemDesc_OilPotion">oil for lantern</Entry>
+    <Entry Name="ItemName_OilPotionLarge">big fuel</Entry>
+    <Entry Name="ItemDesc_OilPotionLarge">oil for lantern</Entry>
+    <Entry Name="TooManyItemsOfSort">i have too much things in my pockets</Entry>
+    <Entry Name="PickedUp">i got</Entry>
+    <Entry Name="ItemDesc_Tinderbox">i can light things with them</Entry>
+    <Entry Name="ItemName_Tinderbox">mathces</Entry>
+    <Entry Name="UseItemCanNotBeLit">i cant light this.</Entry>
+    <Entry Name="LanternOn">(active)</Entry>
+    <Entry Name="LanternOff">(not actiev)</Entry>
+    <Entry Name="OilNeedsLantern">i need lamp first.</Entry>
+    <Entry Name="Tinderboxes">matches</Entry>
+    <Entry Name="TinderboxesDesc">i can light things with them</Entry>
+    <Entry Name="Journal">notebook</Entry>
+    <Entry Name="JournalDesc">i store all papers here and also reminders.click</Entry>
+  </CATEGORY>
+  
+    <CATEGORY Name="Global">
+    <Entry Name="Warning">warning</Entry>
+    <Entry Name="Yes">yes</Entry>
+    <Entry Name="No">no</Entry>
+    <Entry Name="OK">ok</Entry>
+    <Entry Name="Cancel">cancel</Entry>
+    <Entry Name="None">none</Entry>
+  </CATEGORY>
+  
+    <CATEGORY Name="Game">
+    <Entry Name="InteractChest01">insert</Entry>
+    <Entry Name="InteractChest02">rupees to open box</Entry>
+    <Entry Name="InteractChest03_NoCoins">you don,t have enough rupees!</Entry>
+    <Entry Name="InteractChest03_Question">unlock?</Entry>
+    <Entry Name="InteractChest03">current rupees:</Entry>
+	
+    <Entry Name="DeathPress">press anything to continue...</Entry>
+    <Entry Name="NoMoreTinderboxes">no macthes left</Entry>
+	
+    <Entry Name="OilBarrel_Empty">There is no oil left in barrel.</Entry>
+    <Entry Name="OilBarrel_LanternFull">No need to fill up on oil. The lantern is already full!</Entry>
+    <Entry Name="OilBarrel_Refill_Full">The lantern is now fully refilled.</Entry>
+    <Entry Name="OilBarrel_Refill_Amount_025">Refilled lantern with a few drops of oil.</Entry>
+    <Entry Name="OilBarrel_FocusText_Empty">The barrel contains no oil.</Entry>
+    <Entry Name="OilBarrel_Refill_Amount_050">Refilled lantern with a little amount of oil.</Entry>
+    <Entry Name="OilBarrel_Refill_Amount_075">Refilled more than half of the lantern oil.</Entry>
+    <Entry Name="OilBarrel_Refill_Amount_100">Refilled almost all lantern oil.</Entry>
+    <Entry Name="OilBarrel_FocusText_025">The barrel contains a few drops of oil</Entry>
+    <Entry Name="OilBarrel_FocusText_050">The barrel contains less than half a lantern-worth of oil.</Entry>
+    <Entry Name="OilBarrel_FocusText_075">The barrel contains more than half a lantern-worth of oil.</Entry>
+    <Entry Name="OilBarrel_FocusText_100">The barrel contains a full refill-worth of oil.</Entry>
+  </CATEGORY>
+	
+</LANGUAGE>
