@@ -1,0 +1,71 @@
+//---------------------------------------
+
+void OnStart()
+{
+    SetInDarknessEffectsActive(false);
+
+    PlayMusic("02_amb_safe", true, 0.55f, 0, 1, true);
+
+    AddEntityCollideCallback("Player", "sneeze", "sneeze1", true, 1);
+    AddEntityCollideCallback("Player", "TriggerGrandpa", "grandpaquestion", true, 1);
+    AddEntityCollideCallback("Player", "FabioStart", "StartFabioConversation", true, 1);
+    AddEntityCollideCallback("Player", "grunt", "grunt", true, 1);
+
+    AddUseItemCallback("usekey", "key", "mansion_9", "useKey", true);
+
+    AutoSave();
+}
+
+//---------------------------------------
+
+void useKey(string item, string entity)
+{
+    RemoveItem(item);
+    SetSwingDoorLocked("mansion_9", false, true);
+}
+
+void sneeze1(string &in parent, string &in child, int state)
+{
+    StartScreenShake(0.05, 1.0f, 0.2f, 0.5f);
+    PlaySoundAtEntity("sneeze", "sneeze1.snt", "Player", 0, false);
+    StopMusic(0, 1);
+
+    AddTimer("ghasp", 3.0f, "Timer_Gasp");
+}
+
+void grandpaquestion(string parent, string child, int state)
+{
+    AddEffectVoice("hugo_grandpa_1.ogg", "", "GrandpaConvo", "Hello", false, "", 0, 5);
+    SetEntityActive("FabioStart", true);
+}
+
+void grunt(string parent, string child, int state)
+{
+    PlaySoundAtEntity("flush", "toilet.snt", "fabio_source", 0, false);
+}
+
+void StartFabioConversation(string parent, string child, int state)
+{
+    SetLevelDoorLocked("door_exit", false);
+
+    AddEffectVoice("fabio-01.ogg", "", "GrandpaConvo", "Convo1", false, "fabio_source", 1, 10);
+    AddEffectVoice("hugo_grandpa_2.ogg", "", "GrandpaConvo", "Convo2", false, "", 0, 5);
+    AddEffectVoice("fabio-02.ogg", "", "GrandpaConvo", "Convo3", false, "fabio_source", 1, 10);
+    AddEffectVoice("hugo_grandpa_3.ogg", "", "GrandpaConvo", "Convo4", false, "", 0, 5);
+    AddEffectVoice("fabio-03.ogg", "", "GrandpaConvo", "Convo5", false, "fabio_source", 1, 10);
+    AddEffectVoice("hugo_grandpa_4.ogg", "", "GrandpaConvo", "Convo6", false, "", 0, 5);
+    AddEffectVoice("fabio-04.ogg", "", "GrandpaConvo", "Convo7", false, "fabio_source", 1, 10);
+    AddEffectVoice("hugo_grandpa_5.ogg", "", "GrandpaConvo", "Convo8", false, "", 0, 5);
+    SetEffectVoiceOverCallback("flush");
+}
+
+void flush()
+{
+    SetEntityActive("grunt", true);
+}
+
+void Timer_Gasp(string &in timer)
+{
+    PlaySoundAtEntity("ghasp", "react_scare.snt", "Player", 0, false);
+    PlayMusic("02_amb_safe", true, 0.85f, 0, 1, true);
+}

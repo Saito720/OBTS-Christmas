@@ -1,9 +1,9 @@
 <Material>
     <Main BlendMode="Add" DepthTest="true" PhysicsMaterial="Default" Type="soliddiffuse" UseAlpha="false" />
     <TextureUnits>
-        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="false" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/child/hugo.png" MipMaps="true" Type="2D" Wrap="Repeat" />
-        <NMap AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/child/child_nonbloody_nrm.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
-        <Specular AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/entities/enemy/child/hugo_spec.png" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="false" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/custom_stories/OBTS-Christmas/entities/npc/hugo/hugo.png" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/custom_stories/OBTS-Christmas/entities/npc/hugo/child_nonbloody_nrm.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Specular AnimFrameTime="0" AnimMode="None" Compress="false" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/custom_stories/OBTS-Christmas/entities/npc/hugo/hugo_spec.png" MipMaps="true" Type="2D" Wrap="Repeat" />
     </TextureUnits>
     <SpecificVariables>
         <Var Name="HeightMapScale" Value="0.05000000074505806" />

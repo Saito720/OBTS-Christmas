@@ -5,15 +5,15 @@
             <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
             <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
             <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
-            <Viewport CameraPosition="-0.0333282 1.46217 0.538515" CameraTarget="0.00364065 0.745925 -0.529472" CameraZoom="3.66013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-2.30175 0.905242 0.237568" CameraTarget="0.00364065 0.745925 -0.529472" CameraZoom="3.02213" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
         </ViewportConfig>
     </EditorSession>
     <ModelData>
         <Entities />
-        <Mesh Filename="custom_stories/OBTS-Christmas/entities/npc/hugo/hugo.FBX">
-            <SubMesh Active="true" ID="0" Material="" Name="low_jacket" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
-            <SubMesh Active="true" ID="1" Material="" Name="low_shorts" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
-            <SubMesh Active="true" ID="2" Material="" Name="low_body_MAIN" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="0 0 0" />
+        <Mesh Filename="custom_stories/__ESCAPE/entities/npc/hugo/hugo.FBX">
+            <SubMesh Active="true" ID="0" Material="D:/SteamLibrary/steamapps/common/Amnesia The Dark Descent/custom_stories/__ESCAPE/entities/npc/hugo/hugo.mat" Name="low_jacket" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="1" Material="D:/SteamLibrary/steamapps/common/Amnesia The Dark Descent/custom_stories/__ESCAPE/entities/npc/hugo/hugo.mat" Name="low_shorts" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="2" Material="D:/SteamLibrary/steamapps/common/Amnesia The Dark Descent/custom_stories/__ESCAPE/entities/npc/hugo/hugo.mat" Name="low_body_MAIN" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="0 0 0" />
             <SubMesh Active="true" ID="3" Material="" Name="Object008" Rotation="0 0 0" Scale="1 1 1" SubMeshID="3" Tag="" WorldPos="0 0 0" />
         </Mesh>
         <Bones>
